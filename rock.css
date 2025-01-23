@@ -1,0 +1,104 @@
+body {
+    justify-items: center;
+    margin-top: 100px;
+color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://wallpapercave.com/wp/wp8971939.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+   
+    
+}
+
+
+
+
+
+.title {
+    font-size:39px ;
+    font-weight: bold;
+}
+
+.button-img {
+    background-color: transparent;
+    border: 3px solid wheat;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+.hello {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.js-b {
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.im{
+margin: 10px;
+}
+@media (max-width: 768px) {
+    body {
+       background-image: url('https://images.pexels.com/photos/1226302/pexels-photo-1226302.jpeg?auto=compress&cs=tinysrgb&w=600');
+        margin-top: 0px;
+        font-size: 18px;
+       height: 800px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .button-img {
+        padding: 20px;
+        margin: 10px;
+        border-radius: 80px;
+    }
+
+    img {
+        height: 60px;
+    }
+
+    .js-b {
+        
+     border: none;
+      
+    }
+
+    .moves{
+        font-size: 15px;
+        margin: 20px;
+    }
+    .result{
+         font-weight: bold;
+         font-size: 20px;
+         color: darkolivegreen;
+
+    }
+}
+@media (max-width: 600px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+  
+}
